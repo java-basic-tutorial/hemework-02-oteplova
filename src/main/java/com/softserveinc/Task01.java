@@ -94,8 +94,5 @@ public class Task01 {
             case 11: System.out.println("The month with the highest temperatures in a year: XII");
                 break;
         }
-
-
-
     }
 }
