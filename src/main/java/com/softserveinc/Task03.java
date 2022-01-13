@@ -20,9 +20,6 @@ import java.util.*;
     >>> 0
     Minimum number is 9
 
-            for (int i = 0; i < listOfNumbers.size(); i++) {
-            listOfNumbers
-        }
  */
 public class Task03 {
     public static void main(String[] args) {
