@@ -35,15 +35,15 @@ public class Task02 {
         // TODO: Write your code here
         double t1;
         double t2;
-        int dt;
+        double dt;
         double i;
         double tempF;
         System.out.print("t1 >>> ");
-        t1 = scanner.nextInt();
+        t1 = scanner.nextDouble();
         System.out.print("t2 >>> ");
-        t2 = scanner.nextInt();
+        t2 = scanner.nextDouble();
         System.out.print("dt >>> ");
-        dt = scanner.nextInt();
+        dt = scanner.nextDouble();
         System.out.println("-----------------");
         System.out.println("C       F ");
         System.out.println("-----------------");
