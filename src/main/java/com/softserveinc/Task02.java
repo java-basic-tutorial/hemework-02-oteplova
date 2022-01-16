@@ -33,6 +33,26 @@ public class Task02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // TODO: Write your code here
-
+        double t1;
+        double t2;
+        double dt;
+        double i;
+        double tempF;
+        System.out.print("t1 >>> ");
+        t1 = scanner.nextDouble();
+        System.out.print("t2 >>> ");
+        t2 = scanner.nextDouble();
+        System.out.print("dt >>> ");
+        dt = scanner.nextDouble();
+        System.out.println("-----------------");
+        System.out.println("C       F ");
+        System.out.println("-----------------");
+        i = t1;
+        while (i >= t1 && i <= t2) {
+            tempF = 9.00 / 5.00 * i + 32;
+            System.out.format("%.2f    %.2f\n", i, tempF);
+            i += dt;
+        }
+        System.out.println("-----------------");
     }
 }
