@@ -31,17 +31,17 @@ public class Task03 {
         do {
             System.out.print(">>> ");
             enteredValue = scanner.nextInt();
-            fullListOfNumbers.add(enteredValue);
+            if (enteredValue != 0) {
+                fullListOfNumbers.add(enteredValue);
+            }
         } while (enteredValue != 0);
 
-        for (int i=0; i < fullListOfNumbers.size(); i++){
-            if (fullListOfNumbers.get(i).equals(0)){
-                fullListOfNumbers.remove(i);
+        min = fullListOfNumbers.get(0);
+        for (Integer eachElement:fullListOfNumbers) {
+            if (eachElement < min){
+                min = eachElement;
             }
         }
-
-        Collections.sort(fullListOfNumbers);
-        min = fullListOfNumbers.get(0);
         System.out.println("Minimum number is " + min);
     }
 }
